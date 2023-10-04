@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #e3f9ff !important;
+}
+.container{
+  min-height: 100vh;
+}
+#text{
+  height: 45px;
+}
+#card-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#card-text input{
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+  background: transparent;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+.operator{
+  color: #33ffd8 !important;
+}
